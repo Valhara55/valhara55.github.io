@@ -1,6 +1,6 @@
 body {
-  background-color: #fff7ff;
-  color: #4f0a2a;
+  background-color: #FDC2FF;
+  color: #FDC2FF;
 }
 
 header {
@@ -8,13 +8,13 @@ header {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     text-align: center;
     padding: 5px;
-    background-color: #ffe3ff;
-    color: #85406f;
+    background-color: #AAA1FF;
+    color: #CFF4FF;
     border: 3px dotted grey;
 }
 
 h1, h2, h3{
-    color: #85406f;
+    color: #CFF4FF;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -26,7 +26,7 @@ p {
 caption{
    font-size: 1.5em;
    font-weight: bold;
-   color: #85406f;
+   color: #CFF4FF;
    margin-bottom: 5px;
 }
 
@@ -55,14 +55,14 @@ th, td {
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     width: 20%;
-    background-color: #ffe3ff;
+    background-color: #AAA1FF;
     border: 3px dotted grey;
     padding: 10px;
 }
 
 mark {
-  background-color: #f9c5f4;
-  color: #4f0a2a;
+  background-color: #AAA1FF;
+  color: #FFDEA1;
   padding: 0 3px;
   border-radius: 3px;
 }
@@ -75,7 +75,6 @@ mark {
 }
 
 .bullet-points li {
-    background: url("../images/flowers.png") no-repeat left center;
     background-size: 20px 20px;
     padding-left: 30px;
     margin-bottom: 10px;
@@ -85,13 +84,13 @@ mark {
 
 /* link hovering */
 a {
-  color: #85406f;
+  color: #FFDEA1;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #ba69a3;
+  color: #FFDEA1;
   text-decoration: underline;
 }
 
@@ -111,7 +110,7 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
-  background-color: #fff0ff;
+  background-color: #AAA1FF;
 
 }
 
@@ -120,18 +119,18 @@ form {
   border: 3px dotted grey;
   padding: 15px;
   border-radius: 10px;
-  background-color: #ffe3ff;
+  background-color: #AAA1FF;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
 
 input[type="submit"] {
-  background-color: #85406f;
+  background-color: #CFF4FF;
   color: white;
   font-weight: bold;
 }
 
 input[type="submit"]:hover {
-  background-color: #ba69a3;
+  background-color: #FFDEA1;
 }
 
 
@@ -139,8 +138,8 @@ footer {
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
   text-align: center;
-  padding: 5px;
-  background-color: #ffe3ff;
-  color: #85406f;
+   padding: 5px;
+  background-color: #AAA1FF;
+  color: #CFF4FF;
   border: 3px dotted grey;
 }
