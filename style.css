@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tippy Tappy Time</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://pixabay.com/illustrations/cassete-retro-vintage-analog-9215585/">
+</head>
+<body>
+  <div class="container">
+    <header>
+	<h1>Welcome</h1>
+			<h2>Ahhhh</h2>
+		<hr style="border-top: dotted 5px"/>
+			h3 id="current-date"></h3>
+    </header>
+
+<div class="page-wrapper">
+	<div class="float-container">
+
+<!-- ----------------Side Column--------------------- -->
+	<nav>
+		<h2><span style="color:#85406f">Links</span></h2>
+		<a href="index.html">Main</a> &nbsp;
+	</nav>
+	<section>
+    <h2><span style="color:#85406f">Projects</span></h2>
+		<hr style="border-top: dotted 5px"/>
+		<p><strong>Baby Bee</strong> <br>
+		Pet-Sim <em> July, 2025 - Finished </em> <br>
+		</p>
+		<p><strong>Moondial</strong> <br>
+		Cozy Farm-Sim <em> June 2025 - In Progress </em>
+		</p>
+  </section>
+	</div>
+<!-- ---------------- Main Section--------------------- -->
+<div class="main-content">
+	<main>
+	  <section>
+		<h2><span style="color:#85406f">Profile</span></h2>
+		<hr style="border-top: dotted 5px"/>
+		<p>We tippy. We tappy. Website appears. We do no completely understand this magic.</p><br>
+		<hr style="border-top: dotted 5px"/>
+	  </section>
+
+<!-- ---------------- Table  --------------------- -->
+	<table>
+		<caption>Table</caption>
+		<tr>
+ 			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+		</tr>
+		<tr>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+		</tr>
+		<tr>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+			<td>item</td>
+		</tr>
+		</table>
+	</main>
+	</div>
+</div>
+<!-- --------  Footer  -------- -->
+
+<footer>
+    <p> <em> Images provided by <a href="page2.html">pixabay.com</a>.</em></p>
+</footer>
+
+<!-- ----------------  Date in Header  --------------------- -->
+<script>
+{
+	const currentDate = new Date();
+	const today = currentDate.toLocaleDateString(undefined, {year: 'numeric', month: 'long', day: 'numeric' });
+	const dateDiv = document.getElementById('current-date');
+	console.log("Current date:", today);
+	dateDiv.textContent = `Today is ${today}`;
+}
+</script>
+</body>
+</html>
 
