@@ -1,4 +1,5 @@
 body {
+  background-image: linear-gradient(#FDC2FF, #AAA1FF);
   background-color: #FDC2FF;
   color: #FDC2FF;
 }
@@ -10,7 +11,7 @@ header {
     padding: 5px;
     background-color: #AAA1FF;
     color: #CFF4FF;
-    border: 3px dotted grey;
+    border: 3px dotted violet;
 }
 
 h1, h2, h3{
@@ -42,7 +43,7 @@ table {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     padding: 10px;
     margin: 20px auto;
-    border: 3px solid grey;
+    border: 3px solid violet;
     text-align: center;
 }
 
@@ -56,7 +57,7 @@ th, td {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     width: 20%;
     background-color: #AAA1FF;
-    border: 3px dotted grey;
+    border: 3px dotted violet;
     padding: 10px;
 }
 
@@ -116,7 +117,7 @@ a:hover {
 
 /* form style */
 form {
-  border: 3px dotted grey;
+  border: 3px dotted violet;
   padding: 15px;
   border-radius: 10px;
   background-color: #AAA1FF;
