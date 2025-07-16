@@ -1,90 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Tippy Tappy Time</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="https://pixabay.com/illustrations/cassete-retro-vintage-analog-9215585/">
-</head>
-<body>
-  <div class="container">
-    <header>
-	<h1>Welcome</h1>
-			<h2>Ahhhh</h2>
-		<hr style="border-top: dotted 5px"/>
-			h3 id="current-date"></h3>
-    </header>
-
-<div class="page-wrapper">
-	<div class="float-container">
-
-<!-- ----------------Side Column--------------------- -->
-	<nav>
-		<h2><span style="color:#85406f">Links</span></h2>
-		<a href="index.html">Main</a> &nbsp;
-	</nav>
-	<section>
-    <h2><span style="color:#85406f">Projects</span></h2>
-		<hr style="border-top: dotted 5px"/>
-		<p><strong>Baby Bee</strong> <br>
-		Pet-Sim <em> July, 2025 - Finished </em> <br>
-		</p>
-		<p><strong>Moondial</strong> <br>
-		Cozy Farm-Sim <em> June 2025 - In Progress </em>
-		</p>
-  </section>
-	</div>
-<!-- ---------------- Main Section--------------------- -->
-<div class="main-content">
-	<main>
-	  <section>
-		<h2><span style="color:#85406f">Profile</span></h2>
-		<hr style="border-top: dotted 5px"/>
-		<p>We tippy. We tappy. Website appears. We do no completely understand this magic.</p><br>
-		<hr style="border-top: dotted 5px"/>
-	  </section>
-
-<!-- ---------------- Table  --------------------- -->
-	<table>
-		<caption>Table</caption>
-		<tr>
- 			<td>item</td>
-			<td>item</td>
-			<td>item</td>
-			<td>item</td>
-		</tr>
-		<tr>
-			<td>item</td>
-			<td>item</td>
-			<td>item</td>
-			<td>item</td>
-		</tr>
-		<tr>
-			<td>item</td>
-			<td>item</td>
-			<td>item</td>
-			<td>item</td>
-		</tr>
-		</table>
-	</main>
-	</div>
-</div>
-<!-- --------  Footer  -------- -->
-
-<footer>
-    <p> <em> Images provided by <a href="page2.html">pixabay.com</a>.</em></p>
-</footer>
-
-<!-- ----------------  Date in Header  --------------------- -->
-<script>
-{
-	const currentDate = new Date();
-	const today = currentDate.toLocaleDateString(undefined, {year: 'numeric', month: 'long', day: 'numeric' });
-	const dateDiv = document.getElementById('current-date');
-	console.log("Current date:", today);
-	dateDiv.textContent = `Today is ${today}`;
+body {
+  background-color: #fff7ff;
+  color: #4f0a2a;
 }
-</script>
-</body>
-</html>
 
+header {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 5px;
+    background-color: #ffe3ff;
+    color: #85406f;
+    border: 3px dotted grey;
+}
+
+h1, h2, h3{
+    color: #85406f;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+caption{
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #85406f;
+   margin-bottom: 5px;
+}
+
+main {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    border: 3px dotted grey;
+}
+
+table {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid grey;
+    text-align: center;
+}
+
+th, td {
+    padding: 0 10px;
+}
+
+.float-container
+{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    width: 20%;
+    background-color: #ffe3ff;
+    border: 3px dotted grey;
+    padding: 10px;
+}
+
+mark {
+  background-color: #f9c5f4;
+  color: #4f0a2a;
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+
+/* goals bullets */
+.bullet-points{
+  list-style: none;
+  padding-left: 0;
+}
+
+.bullet-points li {
+    background: url("../images/flowers.png") no-repeat left center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+/* link hovering */
+a {
+  color: #85406f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ba69a3;
+  text-decoration: underline;
+}
+
+
+
+.main-content {
+  width: 75%;
+}
+
+.page-wrapper {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff0ff;
+
+}
+
+/* form style */
+form {
+  border: 3px dotted grey;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffe3ff;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+input[type="submit"] {
+  background-color: #85406f;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #ba69a3;
+}
+
+
+footer {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 5px;
+  background-color: #ffe3ff;
+  color: #85406f;
+  border: 3px dotted grey;
+}
